@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+	background-image: 	url("https://ih1.redbubble.net/image.236021958.7749/flat,1000x1000,075,f.u3.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #fccf00;
+}
+  
+h1, .results {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.questions, .counter {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+input, button {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+img {
+	height: 200px;
+}    
+
+.results img {
+    height: 250px;
+}
