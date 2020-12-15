@@ -1,3 +1,4 @@
+$("document").ready(function() {
 var counter = 0;
 
 var pokemon = ["https://www.ssbwiki.com/images/thumb/6/6a/Jigglypuff_SSBU.png/1200px-Jigglypuff_SSBU.png", "https://www.ssbwiki.com/images/thumb/9/93/Pikachu_SSBU.png/1200px-Pikachu_SSBU.png", "https://www.mariowiki.com/images/thumb/2/21/Charizard_SSBU.png/1200px-Charizard_SSBU.png", "https://www.mariowiki.com/images/thumb/d/de/Mewtwo_SSBU.png/1200px-Mewtwo_SSBU.png"];
@@ -26,4 +27,5 @@ else if (age >= 18 && appearance === "cool") {
 else {
     $(".results").text("There seems to be an error. Please fill out both questions before submitting.");
 	}
+   });
 });
